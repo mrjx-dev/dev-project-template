@@ -1,0 +1,27 @@
+\client-describe-proj      <- Project Folder.
+│
+├── .env.example           <- Example dotenv file for stroring sensitive information.
+├── Dockerfile             <- Dockerfile to containerize the scraping project.
+├── docker-compose.yml     <- Docker Compose file for managing multi-container Docker applications.
+├── LICENSE                <- Open-source license if one is chosen.
+├── README.md              <- The top-level README for developers using this project.
+├── requirements.txt       <- The requirements file for reproducing the analysis environment, e.g.
+│                             generated with `pip freeze > requirements.txt`.
+│
+├── assets                 <- Directory to store assets.
+│
+├── docs                   <- Documentation, deliverables, scope of work, etc.
+│
+├── references             <- Dictionaries, manuals, and all other explanatory materials.
+│
+└── scrc                   <- Source code for use in this project.
+    ├── __init__.py          <- Makes src a Python module.
+    │
+    ├── main.py              <- Main python file.
+    │
+    ├── \utility               <- Scripts that serves as modules to import to make workflow more efficient.
+    │   ├── __init__.py
+    │   ├── config.py            <- Code to store useful variables and configuration.
+    │   ├── decrypter.py         <- Code for quick file decription.
+    │   ├── encrypter.py         <- Code for quick file encription.
+    │   ├── encryption.py        <- Code for that contains the Encrypt class.
